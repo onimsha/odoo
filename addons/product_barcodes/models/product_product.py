@@ -71,7 +71,7 @@ class product_category(osv.osv):
     def get_complete_code(self, cr, uid, cat, context=None):
         res = ""
         while cat:
-            res = (cat.sequence and str(cat.sequence) or "") + res
+            res = (cat.sequence and str(cat.sequence) or "0") + res
             cat = cat.parent_id
         return res
 
