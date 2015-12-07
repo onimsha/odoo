@@ -46,14 +46,15 @@ class product_product(osv.osv):
             if len(list_attr['Size']) == 1:
                 size = list_attr['Size'][0]
 
-            if res_prod.categ_id or res_prod.pos_categ_id:
+            if res_prod.categ_id:
                 next_sequence = 1
-                if res_prod.pos_categ_id:
-                    suffix = res_prod.pos_categ_id.complete_code
-                    args = [('pos_categ_id', '=', res_prod.pos_categ_id.id), ('id', '!=', prod_id)]
-                else:
-                    suffix = res_prod.categ_id.complete_code
-                    args = [('categ_id', '=', res_prod.categ_id.id), ('id', '!=', prod_id)]
+                # if res_prod.pos_categ_id:
+                #     suffix = res_prod.pos_categ_id.complete_code
+                #     args = [('pos_categ_id', '=', res_prod.pos_categ_id.id), ('id', '!=', prod_id)]
+                # else:
+                suffix = res_prod.categ_id.complete_code
+                args = [('categ_id', '=', res_prod.categ_id.id), ('id', '!=', prod_id)]
+
                 prods = self.search(cr, uid, args, order='sequence desc', limit=1, context=context)
                 if prods:
                     res_prod = self.browse(cr, uid, prods[0], context=context)
