@@ -59,7 +59,10 @@ class product_product(osv.osv):
                     res_prod = self.browse(cr, uid, prods[0], context=context)
                     next_sequence = res_prod.sequence + 1
                 if suffix:
-                    barcode = "%s%.2d%.2d%.6d" % (suffix, color, size, next_sequence)
+                    barcode = "%s%.2d%.2d%.5d" % (suffix, color, size, next_sequence)
+                    bar_chk = self.pool.get('barcode.nomenclature')
+                    checksum = bar_chk.ean_checksum("%s0" % barcode)
+                    barcode = "%s%s" % (barcode, checksum)
                     res = self.write(cr, uid, [prod_id], {'sequence': next_sequence, 'barcode': barcode})
         return res
 
