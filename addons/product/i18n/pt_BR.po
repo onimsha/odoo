@@ -3,14 +3,15 @@
 # * product
 # 
 # Translators:
+# Grazziano Duarte <g.negocios@outlook.com.br>, 2015
 # Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:26+0000\n"
-"PO-Revision-Date: 2015-11-07 22:38+0000\n"
-"Last-Translator: Mateus Cerqueira Lopes <mateus1@gmail.com>\n"
+"PO-Revision-Date: 2015-12-10 13:00+0000\n"
+"Last-Translator: Grazziano Duarte <g.negocios@outlook.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-9/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -147,7 +148,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "<span>kg</span>"
-msgstr ""
+msgstr "<span>kg</span>"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.report_pricelist
@@ -196,7 +197,7 @@ msgstr "A categoria do tipo de visualização é uma categoria virtual que pode 
 msgid ""
 "A consumable is a product for which you don't manage stock, a service is a "
 "non-material product provided by a company or an individual."
-msgstr ""
+msgstr "Um material de consumo é um produto para o qual você não gerencia estoque, um serviço é um produto não-material fornecido por uma empresa ou um indivíduo."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_description_sale
@@ -214,7 +215,7 @@ msgid ""
 "A description of the Product that you want to communicate to your vendors. "
 "This description will be copied to every Purchase Order, Receipt and Vendor "
 "Bill/Refund."
-msgstr ""
+msgstr "A descrição do produto que você deseja comunicar aos seus fornecedores. Esta descrição será copiada para cada Pedido de Compra, Recebimento e Conta/Reembolso de Fornecedor."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_9
@@ -613,7 +614,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
-msgstr ""
+msgstr "Códigos"
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_2
@@ -669,7 +670,7 @@ msgstr "Gabinete de Computador"
 #: model:product.product,name:product.product_product_3
 #: model:product.template,name:product.product_product_3_product_template
 msgid "Computer SC234"
-msgstr ""
+msgstr "Computer SC234"
 
 #. module: product
 #: model:product.public.category,name:product.Computer_all_in_one
@@ -1238,7 +1239,7 @@ msgstr "HDD SH-1"
 #: model:product.product,name:product.product_product_18
 #: model:product.template,name:product.product_product_18_product_template
 msgid "HDD SH-2 (mto)"
-msgstr ""
+msgstr "HDD SH-2 (mto)"
 
 #. module: product
 #: model:product.product,name:product.product_product_19
@@ -1493,7 +1494,7 @@ msgstr "É um seguidor"
 #: model:ir.model.fields,field_description:product.field_product_product_is_product_variant
 #: model:ir.model.fields,field_description:product.field_product_template_is_product_variant
 msgid "Is a product variant"
-msgstr ""
+msgstr "É uma variante de produto"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
@@ -2324,7 +2325,7 @@ msgstr "Quantidade-5"
 #: model:product.product,name:product.product_product_14
 #: model:product.template,name:product.product_product_14_product_template
 msgid "RAM SR2 (kit)"
-msgstr ""
+msgstr "RAM SR2 (kit)"
 
 #. module: product
 #: model:product.product,name:product.product_product_15
@@ -2841,7 +2842,7 @@ msgstr "Volume em m3."
 #: model:ir.model.fields,help:product.field_product_product_weight
 #: model:ir.model.fields,help:product.field_product_template_weight
 msgid "The weight of the contents in Kg, not including any packaging, etc."
-msgstr ""
+msgstr "O peso do conteúdo em Kg, não incluindo qualquer tipo de embalagem, etc."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -3271,7 +3272,7 @@ msgstr ""
 msgid ""
 "Work with product variant allows you to define some variant of the same "
 "products, an ease the product management in the ecommerce for example"
-msgstr ""
+msgstr "Trabalhar com a variante do produto permite que você defina alguma variante dos mesmos produtos, uma facilidade do gerenciamento de produtos no comércio eletrônico, com por exemplo,"
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_wtime
@@ -3462,22 +3463,22 @@ msgstr "oz(s)"
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_line
 msgid "product.attribute.line"
-msgstr ""
+msgstr "product.attribute.line"
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_price
 msgid "product.attribute.price"
-msgstr ""
+msgstr "product.attribute.price"
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_value
 msgid "product.attribute.value"
-msgstr ""
+msgstr "product.attribute.value"
 
 #. module: product
 #: model:ir.model,name:product.model_product_price_history
 msgid "product.price.history"
-msgstr ""
+msgstr "product.price.history"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_qt
@@ -3490,7 +3491,7 @@ msgstr "qt"
 msgid ""
 "raid 1 \n"
 "            512ECC ram"
-msgstr ""
+msgstr "raid 1 \n512ECC ram"
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_59
@@ -3498,12 +3499,12 @@ msgstr ""
 msgid ""
 "raid 10 \n"
 "            2048ECC ram"
-msgstr ""
+msgstr "raid 10 \n2048ECC ram"
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_pricelist
 msgid "report.product.report_pricelist"
-msgstr ""
+msgstr "report.product.report_pricelist"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_partner_property_form
